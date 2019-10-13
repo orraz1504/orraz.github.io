@@ -13,10 +13,8 @@ body{
 .t tr th{
     font-size: 30;
     margin: auto;
-    padding-right:10px;
 }
 .t tr th:last-child{
-    border-left: 2px solid black;
     border-bottom: none;
 }
 .t tr th:first-child{
@@ -51,4 +49,20 @@ body{
 }
 .all{
     background-color: gray;
+}
+.howfar{
+    margin: 10px;
+    border-right: 2px solid black;
+
+}
+.t table th:last-child{
+    padding: 10px;
+
+}
+.pos{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.pos:last-child{
+    border-bottom: 2px solid black;
 }
