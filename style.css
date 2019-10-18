@@ -3,6 +3,9 @@ body{
     text-align: center;
     color: white;
 }
+.t{
+    margin: 0;
+}
 .t table{
     margin: auto;
     border-collapse: collapse;
@@ -65,4 +68,9 @@ body{
 }
 .pos:last-child{
     border-bottom: 2px solid black;
+}
+.gameweek{
+    color: black;
+    font-size: 30;
+    margin: 0;
 }
