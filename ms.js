@@ -1,5 +1,5 @@
 window.addEventListener("load", ()=>{
-    const api ='https://apiv2.apifootball.com/?action=get_standings&league_id=148&APIkey=3dda74e1a011bc4dbd71df4f1588c45fca7291daa563ef963877c3b6445e5c43';
+    const api ='https://apiv2.apifootball.com/?action=get_standings&league_id=148&APIkey=9c72c49bc566a1cba00f796890b765764e93d3a35aece5ecd76a411b16bcc963';
 
     fetch(api)
         .then(res =>{
